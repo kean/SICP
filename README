@@ -1,0 +1,23 @@
+The SICP or There and Back Again
+================================
+
+This summer due to some circumstances (thanks to this post: http://habrahabr.ru/post/142351/ "Functional Programming for Everyone") i found myself messing around on MIT OpenCourseWare website. What i got interested in was famous course # 6.001 "Structure and Interpretation of Computer Programs" which i'm intending to finish by the end of the summer (but not promising anything). 
+
+My primary programming language is C# which is multi-paradigm language that in some cases encourages the functional-programming style. Some people say that learning functional programming is one of the most effective ways to improve your programming style. Well, this claim seems true to me.
+
+My main intention is to broaden my vision of programming styles and improve understanding of functional-programming concepts used by C#. (And of course i always look for the possibilities to improve my English skills).
+
+To keep myself motivated i've decided to blog about my progress. The great advantage of posting your answers anywhere online is that you are to think throught each line of code and text before commiting.
+
+Resources
+=========
+I'm going to check my answers with Bill the Lizzard's answers and some other SICP solutions that he mentioned in this post: http://www.billthelizard.com/2009/10/sicp-challenge.html
+
+
+
+
+
+
+
+
+
