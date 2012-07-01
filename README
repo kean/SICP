@@ -9,10 +9,15 @@ My main intention is to broaden my vision of programming styles and improve unde
 
 To keep myself motivated i've decided to blog about my progress. The great advantage of posting your answers anywhere online is that you are to think throught each line of code and text before commiting.
 
-Resources
+RESOURCES
 =========
 I'm going to check my answers with Bill the Lizzard's answers and some other SICP solutions that he mentioned in this post: http://www.billthelizard.com/2009/10/sicp-challenge.html
 
+COMMENTS
+========
+By the time i created this repository i've already finished the first chapter so i'm gonna rework the answers and post them first and then proceed to the second chapter.
+
+In most cases the solution for the exercise is gonna be a .scm source file with comments. If there is no programming involved or the solution need some extra explanation or testing there'll be an additional text file. 
 
 
 
