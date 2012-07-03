@@ -1,0 +1,12 @@
+SICP exercise 1.14
+
+1. Space.
+
+The deepest path in the tree is the sum that is calculated by the smallest coin - pennies. 
+So space used grows linearly with the order of growth O(n).
+
+2. Time.
+
+It's pretty hard to prove but the order of growth is polynomical. It's O(n^5) where n is an
+initial sum and 5 is the number of types of coins we use. Will come back later.
+

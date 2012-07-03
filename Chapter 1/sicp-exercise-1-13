@@ -1,0 +1,41 @@
+SICP exercise 1.13
+
+1. Prove that fib(n) = (φ^n - ψ^n)/√5
+
+Inductive step:
+
+From the definition of Fibonacci numbers we have:
+fib(n+2) = fib(n+1) + fib(n)
+fib(n) = fib(n+2) - fib(n+1)
+
+To prove the inductive step we shall prove the equation:
+(φ^n - ψ^n)/√5 = (φ^(n+2) - ψ^(n+2))/√5 - (φ^(n+1) - ψ^(n+1))/√5  | * √5
+φ^n - ψ^n = φ^(n+2) - ψ^(n+2) - φ^(n+1) + ψ^(n+1)
+φ^n - ψ^n = φ^n * (φ^2 - φ^1) - ψ^n * (ψ^2 - ψ^1)
+
+Using the equation from p. 68 ( φ^2 = φ^1 + 1 ) we have φ^2 - φ^1 = 1 which is exactly
+what we got in parentheses. Lets consider that equation for ψ:
+((1-√5)/2)^2 - (1-√5)/2 = (1-2√5+5)/4 - (1-√5)/2 = (3-√5)/2 - (1-√5)/2 = 2/2 = 1
+
+We proved that knowing fib(n) and fib(n+1) we can calculate fib(n+2). Now we need to prove that 
+the formula works for base n and n+1. 
+
+Base case:
+
+fib(0) = (φ^0 - ψ^0)/√5 = 0
+fib(1) = (φ^1 - ψ^1)/√5 = ((1+√5)/2 - (1-√5)/2)/√5 = (2√5/2)/√5 = 1
+
+Now as we now fib(0) and fib(1) we can calculate fib(2) and so on.
+
+2. Prove that fib(n) is the closest integer to φ^n/√5
+
+We proved that fib(n) = φ^n/√5 - ψ^n/√5. This means that the difference between the integer fib(n)
+and φ^n/√5 is exactly ψ^n/√5. fib(n) would be the closest integer to φ^n/√5 if abs(ψ^n/√5) <= 0.5.
+
+Lets consider ψ^n/√5. ψ ≈ -0.6183
+
+((1-√5)/2)^n/√5 is a simple function that has a from f(n) = a^n. If abs(a) < 1 than the bigger n is 
+the smaller is f(n). f(n) has its maximum in f(0) = 1. And 1/√5 < 1/2 which proves that fib(n) is 
+the closest integer to φ^n/√5.
+
+

@@ -50,7 +50,7 @@
 ; and run it this way
 (sqrt-iter 1.0 9999999999999998)
 ; After 20+ iterations we see that there is not enough precision 
-; to find the correct answer. Improve guess start producing the same
+; to find the correct answer. Improve guess starts producing the same
 ; number each iteration
 
 [Entering #[compound-procedure 8 sqrt-iter]

@@ -1,0 +1,19 @@
+SICP exercise 1.15
+
+(sine 12.15)
+(p (sine 4.05))
+(p (p (sine 1.35)))
+(p (p (p (sine 0.45))))
+(p (p (p (p (sine 0.15)))))
+(p (p (p (p (p (sine 0.05))))))
+(p (p (p (p (p 0.05)))))
+(p (p (p (p 0.1495))))
+(p (p (p 0.4351345505)))
+(p (p 0.9758465331678772))
+(p -0.7895631144708228)
+-0.39980345741334
+
+There are five calls to the procedure p before it starts to shrink.
+
+This function is similar to counting factorials. Both time and space used grow linearly.
+
