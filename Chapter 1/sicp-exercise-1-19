@@ -1,0 +1,21 @@
+SICP exercise 1.19
+
+Another pure mathematical task. 
+
+We have some initial a, b and p, q and two transformations for calculating next a and b:
+a1 <- bq + aq + ap
+b1 <- bp + aq
+
+When we apply same transformation (with the same p and q) to the new arguments we get:
+b2 <- b1*p + a1*q
+b2 <- (bp+aq)p + (bq+aq+ap)q
+b2 <- bp^2 + apq + bq^2 + aq^2 + apq
+b2 <- b(p^2 + q^2) + a(q^2 + 2pq),
+which means that applying transformation twice with initial p and q are the same
+as applying (p^2 + q^2) as p and (q^2 + 2pq) as q once. Eventually we can compute new
+arguments for applying (p^2 + q^2) and (q^2 + 2pq) twice and so on.
+
+In terms of Scheme new p and q are calculated like
+(+ (square p) (square q)) 
+(+ (square q) (* 2 p q))
+respectively
