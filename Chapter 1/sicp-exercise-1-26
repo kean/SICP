@@ -1,0 +1,4 @@
+SICP exercise 1.26
+
+We can see the difference for the even exp - expmod is called twice. That's how Louis transformmed linear recursive process to tree recursive process.
+
