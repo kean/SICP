@@ -88,7 +88,7 @@ Time elapsed: 6.5136
 (timed-test 20011 expmod 100)
 Time elapsed: .03970000000000027
 (timed-test 20011 expmod-alyssa 10)
-Time elapsed: 30.113999999999987 ; the elapsed time doubled
+Time elapsed: 30.113999999999987 ; the elapsed time squared
 
 (timed-test 50021 expmod 10)
 Time elapsed: 4.2000000000007275e-2
